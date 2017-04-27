@@ -28,8 +28,10 @@ html{
 .navigation ul li{
   display: inline;
   padding: 1rem 1rem;
+}
 
-
+.mobilemenu{
+  display: none;
 }
 
 header img{
@@ -103,7 +105,7 @@ h1{
 .info{
   padding-top: 3rem;
   display: flex;
-  width: 960px;
+  width: 760px;
   margin: auto;
   justify-content: center;
 }
@@ -113,6 +115,7 @@ h1{
   width: 10rem;
   color: white;
   padding: 0.5rem 1.25rem;
+
 }
 
 .philo p{
@@ -130,6 +133,110 @@ h1{
 .app p{
   padding-top: 1rem;
   text-align:left;
-  width: 85%;
+  width: 95%;
 
+}
+
+footer{
+  width: 960px;
+  display: flex;
+  padding: 4rem 4rem;
+
+}
+
+footer img{
+  height: 1.5rem;
+  padding-right: 1rem;
+
+}
+
+
+@media screen and (max-width: 1024px){
+  .navigation{
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .banner{
+    padding: .75rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+
+  .catchphrase h1{
+    font-size: 1.33rem;
+  }
+}
+
+
+@media screen and (max-width: 670px){
+  .banner{
+    width: 100%;
+    text-align: center;
+    justify-content: flex-end;
+  }
+
+  .name{
+    display: none;
+  }
+
+  .icons{
+    flex-direction: column;
+    margin-top: 3.77rem;
+    margin-bottom: 3.77rem;
+  }
+
+  .exam{
+    padding-top: 1.54rem;
+  }
+
+  .ruler{
+    padding-top: 1.54rem;
+  }
+
+  .truck{
+    padding-top: 1.54rem;
+  }
+
+  .info{
+    flex-direction: column;
+    padding-top: 3.77rem;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .philo h2{
+    width: 100%;
+    text-align: center;
+
+  }
+
+  .philo p{
+    margin-bottom: 4rem;
+    width: 100%;
+
+  }
+
+   .app h2{
+    width: 100%;
+    text-align: center;
+
+  }
+
+  .menu{
+    display: none;
+  }
+
+  .mobilemenu{
+    display: inline;
+    padding: 1rem 1rem;
+  }
+
+  footer img{
+    align-items: center;
+  }
+
+  footer h3{
+    display: none;
+  }
 }
