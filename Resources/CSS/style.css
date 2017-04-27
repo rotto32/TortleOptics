@@ -1,0 +1,135 @@
+html{
+  font-size: 18px;
+  font-family: Helvetica;
+  line-height: 1.4em;
+}
+
+/*Header*/
+
+.navigation{
+  display: flex;
+  background-color: cadetblue;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin: auto;
+  width: 960px;
+  height: 4rem;
+  text-align: center;
+  line-height: 1.4rem;
+  margin-top: 1rem;
+  z-index: 10;
+}
+
+.name{
+  vertical-align: middle;
+}
+
+.navigation ul li{
+  display: inline;
+  padding: 1rem 1rem;
+
+
+}
+
+header img{
+  padding-left: 2em;
+  padding-right:1em;
+  height: 1.5rem;
+}
+
+
+header{
+  background-image: url("file:///C:/ROttoProjects/TortleOptics/Resources/glasses-bg.png");
+  height: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner{
+  width: 960px;
+  display: flex;
+  justify-content: flex-end;
+  margin: auto;
+}
+
+.catchphrase{
+  display: inline-block;
+  background-color: white;
+  color: black;
+  margin-top: 10rem;
+  padding: 0.75rem 5rem;
+  line-height: 2.4rem;
+  margin-right: -2rem;
+  text-align: right;
+}
+
+h1{
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.67rem 0rem;
+}
+
+/*Icons*/
+
+.icons{
+  display: flex;
+  width: 960px;
+  height: 8rem;
+  margin: auto;
+  padding-top: 3rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.exam img{
+  width: 3.5rem;
+  padding: 0rem 3rem;
+}
+
+.ruler img{
+  width: 5rem;
+  padding: 0rem 3rem;
+}
+
+.truck img{
+  width: 5rem;
+  padding: 0rem 3rem;
+}
+
+/*Info*/
+
+.info{
+  padding-top: 3rem;
+  display: flex;
+  width: 960px;
+  margin: auto;
+  justify-content: center;
+}
+
+.philo h2{
+  background-color: cadetblue;
+  width: 10rem;
+  color: white;
+  padding: 0.5rem 1.25rem;
+}
+
+.philo p{
+  padding-top: 1rem;
+  text-align: left;
+  width: 45%;
+}
+.app h2{
+  background-color: cadetblue;
+  width: 10rem;
+  color: white;
+  padding: 0.5rem 1.25rem;
+}
+
+.app p{
+  padding-top: 1rem;
+  text-align:left;
+  width: 85%;
+
+}
